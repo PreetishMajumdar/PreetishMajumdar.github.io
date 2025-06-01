@@ -813,22 +813,21 @@ body {
 }
 
 .nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: #0A0A0A;
 }
+
 
 .nav-logo {
     width: 40px;
     height: 40px;
-    border-radius: 50%; 
-    object-fit: cover; 
-    margin-right: 16px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
 }
+
 
 .nav-menu {
   display: flex;
