@@ -1,212 +1,404 @@
 <!DOCTYPE html>
-<html>
-<title>Preetish Majumdar</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 200px;background: rgb(10, 154, 211);}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="w3-light-blue">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="Passport Size Photo.jpg" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-blue">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-blue">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-blue">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-light-blue" id="home">
-    <h1 class="w3-jumbo "><span class="w3-hide-small">I'm</span> Preetish Majumdar.</h1>
-    <p>A Student and a Musician.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preetish Majumdar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
     
-  </header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">PM</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-green w3-center">About Me</h2>
-    <hr style="width:980px" class="w3-opacity" >
-    <p>Hi! I'm Preetish Majumdar. I am a student of Indian Origin, currently pursuing my BTech degree from SRM Institute of Science and Technology.
-       Since I am still in college, most of my time is spent doing college course work. I try and manage to take out some time to work on my hobbies.
-       I have been a musician since I was a kid. I have been learning how to play piano since I was 5 years old and have ventured into the field of music production.
-       I have completed online courses in Adobe Premiere Pro and Adobe Photoshop. 
-       I work as a Freelancer for music production. If you need professional quality music for your song/advertisement/movie, you can contact me with links given below.
-       Pricing for my plans have been also mentioned below. Click here to check out projects I've worked on
-       <li class="light-blue">
-        <button class="w3-button w3-white w3-padding-medium w3-light-grey">Projects</button>
-      </li>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particle" style="--delay: 0s; --duration: 20s;"></div>
+            <div class="particle" style="--delay: 5s; --duration: 25s;"></div>
+            <div class="particle" style="--delay: 10s; --duration: 30s;"></div>
+            <div class="particle" style="--delay: 15s; --duration: 22s;"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-name">Preetish Majumdar</h1>
+            <div class="hero-title">
+                <span id="typing-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">Passionate about Machine Learning, AI, and creating innovative solutions</p>
+            <div class="hero-social">
+                <a href="mailto:preetishmajumdar@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/preetish-majumdar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://preetishmajumdar.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="tel:9588690175" target="_blank"><i class="fas fa-phone"></i></a>
+            </div>
+            <a href="#about" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
 
-    </p>
-    
-    <hr style="width:980px" class="w3-opacity">
-    <h3 class="w3-padding-16 w3-text-green ">My Skills</h3>
-    <p class="w3-wide">Music</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Video Editing</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-    </div>
-    <p class="w3-wide">Coding</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div><br>
-    
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-green ">Music Freelancing</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Song(Vocalist)</li>
-          <li class="w3-padding-16">Instrumentation</li>
-          <li class="w3-padding-16">Mixing/Mastering</li>
-          <li class="w3-padding-16">Music Copyright</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>8000INR</h2>
-            <span class="w3-opacity">per session</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Request</button>
-          </li>
-        </ul>
-      </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-objective">Recent Computer Science graduate with experience in building ML models and analytics tools. Seeking to apply analytical and programming skills in data-focused roles.</p>
+                    <div class="about-details">
+                        <div class="detail-card">
+                            <h3>Education</h3>
+                            <p><strong>BTech in Computer Science and Engineering</strong></p>
+                            <p>SRM Institute of Science and Technology, Kattankulathur</p>
+                        </div>
+                        <div class="detail-card">
+                            <h3>Achievements</h3>
+                            <ul>
+                                <li>Scholarship for Higher Education (SHE) under INSPIRE</li>
+                                <li>Top 1% in Class XII board with 96% score</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary download-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Advertisement</li>
-          <li class="w3-padding-16">Music/Score</li>
-          <li class="w3-padding-16">Mixing Mastering</li>
-          <li class="w3-padding-16">Music Copyright</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>15000INR</h2>
-            <span class="w3-opacity">per session</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Request</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-   
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-green">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="90">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <span class="skill-name">Kotlin</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="70">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="65">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Libraries & Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="85">
+                            <span class="skill-name">NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <span class="skill-name">Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="70">
+                            <span class="skill-name">YOLO</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Specializations</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="90">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <span class="skill-name">Deep Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <span class="skill-name">Data Visualization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding"style="margin:0 -16px ">
-      <div class="w3-half">
-        <img src="IMG.jpg" style="width:40%">
-        
-      </div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="app">Applications</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ml app">
+                    <div class="project-header">
+                        <h3>Career Compass</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">ML-powered placement prediction app with resume feedback and mock interviews using Gemini API</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Android Studio</span>
+                        <span class="tech-tag">Gemini API</span>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Built placement outcome prediction using ML</li>
+                            <li>Integrated resume feedback and skill suggestions</li>
+                            <li>Developed admission prediction with neural networks</li>
+                        </ul>
+                    </div>
+                </div>
 
-      <div class="w3-half">
-        <img src="Front Page New.png" style="width:50%">
-        
-        
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
+                <div class="project-card" data-category="cv ml">
+                    <div class="project-header">
+                        <h3>Football Analysis Live</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Real-time football analysis system tracking players and ball with advanced computer vision</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">YOLOv11</span>
+                        <span class="tech-tag">ByteTrack</span>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Tracked players and ball with YOLOv11 + ByteTrack</li>
+                            <li>Displayed team ball possession with graphics</li>
+                        </ul>
+                    </div>
+                </div>
 
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-green">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+                <div class="project-card" data-category="cv ml">
+                    <div class="project-header">
+                        <h3>Human Emotion Recognition</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Advanced emotion recognition system using facial expression analysis</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">YOLOv8</span>
+                        <span class="tech-tag">scikit-learn</span>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Developed emotion recognition from facial expressions</li>
+                            <li>Utilized YOLOv8 for face detection</li>
+                            <li>Implemented emotion classification with scikit-learn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Kattankulathur, Tamil Nadu</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9588690175</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: pr2471@srmist.edu.in</p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Android Developer Intern</h3>
+                        <h4>Whiz Software Solution</h4>
+                        <span class="timeline-date">Summer 2022</span>
+                        <p>Worked on Android application development using Kotlin and Java</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cloud Intern</h3>
+                        <h4>Eduskills</h4>
+                        <span class="timeline-date">Winter 2021</span>
+                        <p>Worked with cloud technologies and services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="publications">
+                <h3>Publications</h3>
+                <div class="publication-item">
+                    <h4>Career Compass: Predictive Analytics and Personalized Job Recommendation System</h4>
+                    <p>ICOFE 2024 - 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
-  
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Machine Learning Specialization</h3>
+                    <p class="cert-provider">Stanford (Coursera)</p>
+                    <span class="cert-year">2023</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS ML Foundations</h3>
+                    <p class="cert-provider">AWS Academy</p>
+                    <span class="cert-year">2022</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Java and C++ Complete Course</h3>
+                    <p class="cert-provider">Krish Valley (Udemy)</p>
+                    <span class="cert-year">2021</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>preetishmajumdar@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>9588690175</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/preetish-majumdar</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    
-  <!-- End footer -->
-  </footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Preetish Majumdar. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="mailto:preetishmajumdar@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/preetish-majumdar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://preetishmajumdar.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<!-- END PAGE CONTENT -->
-</div>
-
+    <script src="app.js"></script>
 </body>
 </html>
