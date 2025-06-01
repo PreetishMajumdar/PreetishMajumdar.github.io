@@ -1690,4 +1690,13 @@ section:nth-child(even) {
   object-fit: cover;
 }
 
+.nav-logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+
 }
