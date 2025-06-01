@@ -823,9 +823,11 @@ body {
 }
 
 .nav-logo {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--accent-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 16px; 
 }
 
 .nav-menu {
