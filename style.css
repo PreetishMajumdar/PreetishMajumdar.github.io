@@ -1682,21 +1682,4 @@ section:nth-child(even) {
   .about-details {
     grid-template-columns: 1fr;
   }
-
-  .nav-logo-img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.nav-logo img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-}
-
-
 }
