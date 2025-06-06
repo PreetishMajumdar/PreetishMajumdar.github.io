@@ -258,8 +258,7 @@ function initScrollAnimation() {
 
 // Handle resume download
 document.querySelector('.download-btn')?.addEventListener('click', function() {
-    // In a real implementation, this would link to an actual file
-    alert('Resume download would start here in a real implementation.');
+    alert('Thank you for downloading my Resume!');
 });
 
 // Smooth scrolling for anchor links
